@@ -75,13 +75,13 @@ class AppDrawer extends StatelessWidget {
             ),
             title: const Text('Rent History'),
             onTap: () async {
-              List<Map<String, dynamic>> data = await getRentHistory();
+              // List<Map<String, dynamic>> data = await getRentHistory();
 
               Navigator.push(
                   context,
                   MaterialPageRoute(
                       builder: (ctxt) => RentHistoryScreen(
-                            bookingHistory: data,
+                            // bookingHistory: data,
                           )));
             },
           ),
@@ -91,12 +91,12 @@ class AppDrawer extends StatelessWidget {
             ),
             title: const Text('My Bookings'),
             onTap: () async {
-              List<Map<String, dynamic>> data = await getBookingHistory();
+             
               Navigator.push(
                 context,
                 MaterialPageRoute(
                     builder: (context) =>
-                        BookingHistoryScreen(bookingHistory: data)),
+                        BookingHistoryScreen()),
               );
 
               // Navigator.pushNamed(context, '/myBookings');

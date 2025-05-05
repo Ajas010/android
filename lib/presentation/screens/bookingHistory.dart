@@ -3,9 +3,29 @@ import 'package:terefbooking/data/constants.dart';
 import 'package:terefbooking/services/bookingHistoryApi.dart';
 import 'package:terefbooking/services/cancelBooking.dart';
 
-class BookingHistoryScreen extends StatelessWidget {
-  BookingHistoryScreen({super.key, required this.bookingHistory});
-  final bookingHistory;
+class BookingHistoryScreen extends StatefulWidget {
+  BookingHistoryScreen({super.key,});
+  
+
+  @override
+  State<BookingHistoryScreen> createState() => _BookingHistoryScreenState();
+}
+
+class _BookingHistoryScreenState extends State<BookingHistoryScreen> {
+  List<Map<String, dynamic>>  bookingHistory=[];
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    fetch();
+  }
+
+  void fetch()async{
+   bookingHistory   = await getBookingHistory();
+   setState(() {
+     
+   });
+  }
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -143,14 +163,14 @@ class BookingCard extends StatelessWidget {
                                         await cancelBooking(id: id);
                                         Navigator.pop(context);
                                         Navigator.pop(context);
-                                        List<Map<String, dynamic>> data =
-                                            await getBookingHistory();
+                                        // List<Map<String, dynamic>> data =
+                                        //     await getBookingHistory();
                                         Navigator.push(
                                           context,
                                           MaterialPageRoute(
                                               builder: (context) =>
                                                   BookingHistoryScreen(
-                                                      bookingHistory: data)),
+                                                      )),
                                         );
                                       },
                                       child: Text('OK'))

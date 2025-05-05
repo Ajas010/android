@@ -2,6 +2,7 @@ import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:terefbooking/data/constants.dart';
 import 'package:terefbooking/presentation/customeWidgets/snackbar.dart';
+import 'package:terefbooking/presentation/screens/bottomnavbar.dart';
 import 'package:terefbooking/presentation/screens/homeScreen.dart';
 import 'package:terefbooking/services/getTurfsApi.dart';
 
@@ -33,11 +34,11 @@ Future<void> loginApi(String email, String password, context) async {
         loginId = response.data['session_data']['user_id'].toString();
         // snackbarwidget(context, 'Login success', Colors.green);
         List<Map<String, dynamic>> turfdata = await getTurfs();
-        Navigator.push(
+        Navigator.pushReplacement(
             context,
             MaterialPageRoute(
-                builder: (ctxt) => HomeScreen(
-                      turfs: turfdata,
+                builder: (ctxt) => BottomNavScreen(
+                     
                     )));
       } else {
         isLoginLoading.value = false;
@@ -60,7 +61,8 @@ Future<void> loginApi(String email, String password, context) async {
       // Connection or other errors
       isLoginLoading.value = false;
       snackbarwidget(context, 'Login failed', Colors.red);
-      throw Exception("Connection Error: ${e.message}");
+      // throw Exception("Connection Error: ${e.message}");
+      print(e);
     }
   } catch (e) {
     // Handle general errors

@@ -1,9 +1,31 @@
 import 'package:flutter/material.dart';
 import 'package:terefbooking/data/constants.dart';
+import 'package:terefbooking/services/getRentHistory.dart';
 
-class RentHistoryScreen extends StatelessWidget {
-  RentHistoryScreen({super.key, required this.bookingHistory});
-  final bookingHistory;
+class RentHistoryScreen extends StatefulWidget {
+  RentHistoryScreen({super.key, });
+ 
+
+  @override
+  State<RentHistoryScreen> createState() => _RentHistoryScreenState();
+}
+
+class _RentHistoryScreenState extends State<RentHistoryScreen> {
+
+ List<Map<String, dynamic>>  bookingHistory=[];
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    fetch();
+  }
+
+  void fetch()async{
+     bookingHistory = await getRentHistory();
+     setState(() {
+       
+     });
+  }
   @override
   Widget build(BuildContext context) {
     return Scaffold(

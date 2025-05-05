@@ -3,11 +3,12 @@ import 'package:flutter/material.dart';
 import 'package:terefbooking/data/constants.dart';
 import 'package:terefbooking/presentation/customeWidgets/drawer.dart';
 import 'package:terefbooking/presentation/screens/turfDetailsScreen.dart';
+import 'package:terefbooking/services/getTurfsApi.dart';
 
 class HomeScreen extends StatefulWidget {
-  final List<dynamic> turfs;
+ 
 
-  const HomeScreen({Key? key, required this.turfs}) : super(key: key);
+  const HomeScreen({Key? key,}) : super(key: key);
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();
@@ -16,18 +17,27 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   TextEditingController searchController = TextEditingController();
   List<dynamic> filteredTurfs = [];
+   List<dynamic>dTurfs = [];
 
   @override
   void initState() {
     super.initState();
-    filteredTurfs = widget.turfs; // Initially, all turfs are shown.
+    // filteredTurfs = dTurfs; // Initially, all turfs are shown.
     searchController.addListener(_performSearch);
+    turfget();
+  }
+
+  void turfget()async{
+     dTurfs = await getTurfs();
+     setState(() {
+       filteredTurfs = dTurfs;
+     });
   }
 
   void _performSearch() {
     final query = searchController.text.toLowerCase();
     setState(() {
-      filteredTurfs = widget.turfs.where((turf) {
+      filteredTurfs = dTurfs.where((turf) {
         final name = turf['turfname']?.toLowerCase() ?? '';
         final location = turf['location']?.toLowerCase() ?? '';
         return name.contains(query) || location.contains(query);
@@ -49,7 +59,7 @@ class _HomeScreenState extends State<HomeScreen> {
         iconTheme: const IconThemeData(color: Colors.white),
         centerTitle: true,
         title: const Text(
-          'Turf Booking',
+          'Pitch Time',
           style: TextStyle(color: Colors.white),
         ),
         backgroundColor: appthemeColor,

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:terefbooking/data/constants.dart';
+import 'package:terefbooking/presentation/screens/bottomnavbar.dart';
 import 'package:terefbooking/presentation/screens/homeScreen.dart';
 import 'package:terefbooking/services/bookTurf.dart';
 import 'package:terefbooking/services/getTurfsApi.dart';
@@ -162,12 +163,12 @@ class _PaymentScreenState extends State<PaymentScreen> {
                               TextButton(
                                 onPressed: () async {
                                   // Navigate to Home Screen
-                                  List<Map<String, dynamic>> turfdata =
-                                      await getTurfs();
+                                  // List<Map<String, dynamic>> turfdata =
+                                  //     await getTurfs();
                                   Navigator.of(context).pushAndRemoveUntil(
                                     MaterialPageRoute(
-                                        builder: (ctxt) => HomeScreen(
-                                              turfs: turfdata,
+                                        builder: (ctxt) => BottomNavScreen(
+                                              // turfs: turfdata,
                                             )),
                                     (route) => false,
                                   );
@@ -205,12 +206,12 @@ class _PaymentScreenState extends State<PaymentScreen> {
                               TextButton(
                                 onPressed: () async {
                                   // Navigate to Home Screen
-                                  List<Map<String, dynamic>> turfdata =
-                                      await getTurfs();
+                                  // List<Map<String, dynamic>> turfdata =
+                                  //     await getTurfs();
                                   Navigator.of(context).pushAndRemoveUntil(
                                     MaterialPageRoute(
-                                        builder: (ctxt) => HomeScreen(
-                                              turfs: turfdata,
+                                        builder: (ctxt) => BottomNavScreen(
+                                              // turfs: turfdata,
                                             )),
                                     (route) => false,
                                   );
