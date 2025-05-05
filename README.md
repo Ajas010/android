@@ -12,28 +12,31 @@ bookings and reminders, users are kept up-to-date on all their activities. Avail
 and iOS, the app provides a smooth experience for all users. This platform is ideal for both players 
 and turf owners, creating a unified space for managing the sport's needs.
 
-## USER AND CHARACTER 
+# USER AND CHARACTER 
 
-1. ADMIN -
+## 1. ADMIN -
+
 The Admin module is a web-based platform designed for system administrators. It enables the 
 management of users, turf locations, bookings, pricing, and overall system settings to ensure 
 smooth operation.
 
-2. MANAGER -
+## 2. MANAGER -
+
 The Manager module is also a web-based platform, allowing turf managers to oversee bookings, 
 update availability, manage turf maintenance schedules, and handle customer interactions 
 efficiently.
 
-3. USER -
+## 3. USER -
+
 The User module is a mobile application that allows users to browse available turfs, make 
 reservations, view their booking history, and receive notifications regarding their scheduled 
 sessions.
 
-## SYSTEM REQUIREMENT SPECIFICATION 
+# SYSTEM REQUIREMENT SPECIFICATION 
 
- FUNCTIONAL REQUIREMENTS
+ ## FUNCTIONAL REQUIREMENTS
  
-1. ADMIN (Web-Based) 
+### 1. ADMIN (Web-Based) 
 • Login 
 • User Management 
 • Turf Management 
@@ -41,13 +44,13 @@ sessions.
 • Pricing & Payment Configuration 
 • System Settings 
  
-2. MANAGER (Web-Based) 
+### 2. MANAGER (Web-Based) 
 • Login 
 • View & Manage Turf Availability 
 • Approve/Reject Bookings 
 • Update Turf Information (Pricing, Maintenance, Rules) 
 
-3. USER (Mobile Application - Flutter) 
+### 3. USER (Mobile Application - Flutter) 
 • Registration/Login 
 • Browse & Search Turfs 
 • Book Turf Slots 
@@ -55,7 +58,7 @@ sessions.
 • View Booking History 
 • Cancel/Reschedule Booking
 
-NON-FUNCTIONAL REQUIREMENTS
+## NON-FUNCTIONAL REQUIREMENTS
 
 • Maintainability – The system should be easily maintainable and scalable. 
 • Usability – User-friendly interface for both web and mobile users. 
@@ -64,16 +67,16 @@ NON-FUNCTIONAL REQUIREMENTS
 • Portability – The web app can be accessed on any standard web browser, and the mobile 
 app works on both Android and iOS. 
 
- SYSTEM SPECIFICATION 
+ # SYSTEM SPECIFICATION 
  
-1. HARDWARE REQUIREMENTS 
+## 1. HARDWARE REQUIREMENTS 
 
 • Input Devices: Mouse, Keyboard 
 • Output Devices: Monitor 
 • Memory: 4GB RAM (Minimum) 
 • Processor: Intel Core i5 or higher 
 
-2. SOFTWARE REQUIREMENTS 
+## 2. SOFTWARE REQUIREMENTS 
 
 • Operating System: Windows 10 or above / macOS / Linux 
 • Front-End (Web): HTML, CSS, Java 
@@ -83,34 +86,41 @@ app works on both Android and iOS.
 • Development Tools: Visual Studio Code, Android Studio,  
 • Web Browsers: Google Chrome, Firefox, Safari
 
-SELECTION OF SOFTWARE 
+# SELECTION OF SOFTWARE 
 
-1. HTML, CSS, JAVA (Web Front-End) -
+## 1. HTML, CSS, JAVA (Web Front-End) -
+   
 HTML, CSS, and Java provide a responsive and interactive user interface for the web application, 
 ensuring a seamless user experience. Java enhances the functionality by adding dynamic and 
 interactive elements.
-2. FLUTTER (Mobile Front-End)- 
+
+## 3. FLUTTER (Mobile Front-End)- 
+
 Flutter is a widely used framework for building cross-platform mobile applications. It allows code 
 reusability across both iOS and Android, offers hot reload for rapid development, and provides 
 access to native device features and APIs. The mobile application is built using Flutter for an 
 efficient and scalable user experience. 
-3. DART- 
+## 4. DART-
+
 Dart is the programming language used in Flutter development. It is an object-oriented, C-style 
 language designed for building scalable, maintainable, and efficient applications. It provides 
 seamless integration with Flutter and ensures smooth UI interactions. 
-4. PYTHON DJANGO (Back-End Framework) -
+## 5. PYTHON DJANGO (Back-End Framework) -
+
 Django is a high-level Python web framework that ensures rapid development and clean 
 architecture. It offers: 
 • Secure user authentication 
 • Built-in URL routing and template engine 
 • Scalability for managing multiple users and bookings
 • Protection against common security threats 
-5. VISUAL STUDIO CODE (Development Tool) -
+## 6. VISUAL STUDIO CODE (Development Tool) -
+
 Visual Studio Code (VS Code) is a highly versatile and open-source code editor developed by 
 Microsoft. It offers a rich set of features including intelligent code completion, integrated Git 
 support, and a wide range of extensions. VS Code's flexibility and powerful tools make it an 
 excellent choice for efficient and effective development of   Turf Management App.  
-6. ANDROID STUDIO (Mobile Development Environment) -
+## 7. ANDROID STUDIO (Mobile Development Environment) -
+
 Android studio is the primary development environment for creating Android application. 
 Developed by Google, it offers a robust suite of tools for coding, testing, and debugging. With 
 features like code completion and integrated emulators, developers can efficiently build and deploy 
