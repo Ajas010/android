@@ -131,8 +131,8 @@ support for third- party plugins make it a go – to choose for developers world
 
 ### PITCH TIME (MOBILE APP)
 
-![REGISTER PAGE](https://github.com/user-attachments/assets/6acea19b-8cdf-4035-ba80-9e2a9b2ec270)
-![LOGIN PAGE](https://github.com/user-attachments/assets/6f2cbdfe-ccf4-4062-91fd-578063f11412)
+[REGISTER PAGE](https://github.com/user-attachments/assets/6acea19b-8cdf-4035-ba80-9e2a9b2ec270)
+[LOGIN PAGE](https://github.com/user-attachments/assets/6f2cbdfe-ccf4-4062-91fd-578063f11412)
 ![HOME PAGE](https://github.com/user-attachments/assets/32c8ba8c-b1fb-47d2-94b5-d2f5479ffe76)
 ![MENU ](https://github.com/user-attachments/assets/71feca58-72da-4c4e-9378-0c6195b9fe0c)
 ![PROFILE PAGE](https://github.com/user-attachments/assets/3a63727e-e8a3-475b-b800-fd26f4227dc5)
