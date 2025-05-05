@@ -127,9 +127,9 @@ features like code completion and integrated emulators, developers can efficient
 apps for a wide range of android devices. Its seamless integration with the android SDK and 
 support for third- party plugins make it a go – to choose for developers worldwide. 
 
-## 📸 SCREENSHOTS
+##  SCREENSHOTS
 
-# 📱 PITCH TIME – Mobile App
+#  PITCH TIME – Mobile App
 
 A football turf booking app built with Flutter.
 
@@ -161,8 +161,9 @@ A football turf booking app built with Flutter.
 
 
 ### 📄 Full Project Report
-[ View Full Project Report (PDF)](AJASPITCHTIME.pdf)
 
+
+[ View Full Project Report (PDF)](C:\Users\hp\Desktop\Project documents\AJASPITCHTIME.pdf)
 
 # CONCLUSION
 
