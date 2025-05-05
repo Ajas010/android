@@ -129,27 +129,40 @@ support for third- party plugins make it a go – to choose for developers world
 
 ## 📸 SCREENSHOTS
 
-### PITCH TIME (MOBILE APP)
+# 📱 PITCH TIME – Mobile App
 
-[REGISTER PAGE](https://github.com/user-attachments/assets/6acea19b-8cdf-4035-ba80-9e2a9b2ec270)
-[LOGIN PAGE](https://github.com/user-attachments/assets/6f2cbdfe-ccf4-4062-91fd-578063f11412)
-![HOME PAGE](https://github.com/user-attachments/assets/32c8ba8c-b1fb-47d2-94b5-d2f5479ffe76)
-![MENU ](https://github.com/user-attachments/assets/71feca58-72da-4c4e-9378-0c6195b9fe0c)
-![PROFILE PAGE](https://github.com/user-attachments/assets/3a63727e-e8a3-475b-b800-fd26f4227dc5)
-![TURF DETAIL PAGE](https://github.com/user-attachments/assets/4990b979-4b46-4b34-be5a-09ef4dd4f737)
-![PRODUCT PAGE](https://github.com/user-attachments/assets/ba81bf8e-2da3-4574-8ae2-9066bbfd6c7e)
-![BOOKING PAGE](https://github.com/user-attachments/assets/95bc1a24-a63f-45aa-9f89-3ea1c39a86ce)
-![RENT HISTORY PAGE](https://github.com/user-attachments/assets/647bb0bb-1ac5-4f14-8d69-8f6ffaae17df)
-![DATE ](https://github.com/user-attachments/assets/30e3b70f-d6a6-490e-afd1-91a44dd68441)
-![SLOT](https://github.com/user-attachments/assets/e8424cbb-0a28-4714-a365-424195c3b114)
+A football turf booking app built with Flutter.
 
-### PITCH TIME (ADMIN WEB)
-![ADMIN HOME PAGE](https://github.com/user-attachments/assets/a330e995-deff-41df-8ebf-107bb3d1219b)
+###  Authentication Screens
+- [Register Page](https://github.com/user-attachments/assets/6acea19b-8cdf-4035-ba80-9e2a9b2ec270)
+- [Login Page](https://github.com/user-attachments/assets/6f2cbdfe-ccf4-4062-91fd-578063f11412)
 
-### PITCH TIME (MANAGER WEB)
-![MANAGER HOME PAGE](https://github.com/user-attachments/assets/42240b3b-4778-46da-a97f-1f7893ac5971)
+###  Main App Screens
+![Home Page](https://github.com/user-attachments/assets/32c8ba8c-b1fb-47d2-94b5-d2f5479ffe76)
+![Menu](https://github.com/user-attachments/assets/71feca58-72da-4c4e-9378-0c6195b9fe0c)
+![Profile Page](https://github.com/user-attachments/assets/3a63727e-e8a3-475b-b800-fd26f4227dc5)
+![Turf Detail Page](https://github.com/user-attachments/assets/4990b979-4b46-4b34-be5a-09ef4dd4f737)
+![Product Page](https://github.com/user-attachments/assets/ba81bf8e-2da3-4574-8ae2-9066bbfd6c7e)
+![Booking Page](https://github.com/user-attachments/assets/95bc1a24-a63f-45aa-9f89-3ea1c39a86ce)
+![Rent History Page](https://github.com/user-attachments/assets/647bb0bb-1ac5-4f14-8d69-8f6ffaae17df)
+![Date Picker](https://github.com/user-attachments/assets/30e3b70f-d6a6-490e-afd1-91a44dd68441)
+![Slot Booking](https://github.com/user-attachments/assets/e8424cbb-0a28-4714-a365-424195c3b114)
 
-[ View Full Project Report (PDF)](docs/AJASPITCHTIME.pdf)
+---
+
+#  PITCH TIME – Web Apps
+
+###  Admin Web Panel
+![Admin Home Page](https://github.com/user-attachments/assets/a330e995-deff-41df-8ebf-107bb3d1219b)
+
+###  Manager Web Panel
+![Manager Home Page](https://github.com/user-attachments/assets/42240b3b-4778-46da-a97f-1f7893ac5971)
+
+---
+
+### 📄 Full Project Report
+[📥 View Full Project Report (PDF)](docs/AJASPITCHTIME.pdf)
+
 
 # CONCLUSION
 
