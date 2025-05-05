@@ -159,12 +159,6 @@ A football turf booking app built with Flutter.
 - [Manager Home Page](https://github.com/user-attachments/assets/42240b3b-4778-46da-a97f-1f7893ac5971)
 
 
-
-### 📄 Full Project Report
-
-
-[ View Full Project Report (PDF)](C:\Users\hp\Desktop\Project documents\AJASPITCHTIME.pdf)
-
 # CONCLUSION
 
 PITCH TIME successfully addresses the growing demand for an organized and user-friendly platform for booking football turfs. By streamlining the booking process, providing real-time availability, and ensuring secure transactions, the app enhances the experience for both players and turf owners. The project not only demonstrates the technical capabilities of Flutter in building cross-platform applications but also emphasizes the importance of convenience, efficiency, and community in modern sports management. With further improvements and scaling, PITCH TIME holds the potential to become a go-to platform for turf bookings across various regions, promoting greater participation in sports and efficient turf utilization.
